@@ -38,7 +38,7 @@ driver.implicitly_wait(50)
 
 wait = WebDriverWait(driver,500)
 
-operators =[opr_id]#,'Railyatri Intrcity'
+operators =[opr_id]
 for i in range(len(operators)) :
 	# Operator selection
 	operator = Select(driver.find_element(By.ID,"nav_t"))
